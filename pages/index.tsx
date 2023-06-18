@@ -11,6 +11,9 @@ function email() {
 function discord() {
     window.open("https://discord.com/users/878092667156856882");
 }
+function easteregg() {
+    alert('Easter Egg!🥚');
+}
 
 export default function Home() {
   return (
@@ -25,6 +28,7 @@ export default function Home() {
                   width={96}
                   height={1}
                   alt=""
+                  onClick={easteregg}
                   className="mt-[30px]"
               />
               <p className="text-[56px]">뉴비</p>
