@@ -4,7 +4,6 @@ export default function Document() {
   return (
     <Html lang="ko">
       <Head>
-        <link rel="favicon" href="/favicon.ico" />
       </Head>
       <body>
         <Main />

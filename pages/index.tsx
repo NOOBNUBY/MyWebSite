@@ -63,16 +63,16 @@ export default function Home() {
                       onInit={(typewriter) => {
                           typewriter
                               .typeString("#Hello, World!")
-                              .pauseFor(2500)
+                              .pauseFor(3500)
                               .deleteAll()
                               .typeString("#Age 15(14)")
-                              .pauseFor(2500)
+                              .pauseFor(3500)
                               .deleteAll()
                               .typeString("#초보 개발자")
-                              .pauseFor(2500)
+                              .pauseFor(3500)
                               .deleteAll()
                               .typeString("#바부")
-                              .pauseFor(2500)
+                              .pauseFor(3500)
                               .deleteAll()
                               .start();
                       }}
