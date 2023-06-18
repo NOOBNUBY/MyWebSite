@@ -1,9 +1,6 @@
 import Image from 'next/image'
-import { Inter } from 'next/font/google'
 import Typewriter from 'typewriter-effect';
-import { url } from 'inspector';
-
-const inter = Inter({ subsets: ['latin'] })
+import Head from 'next/head'
 
 function github() {
     window.open("https://github.com/noobnuby");
@@ -19,6 +16,10 @@ export default function Home() {
   return (
       <main className="flex justify-center items-center font opacity-80 font['Pretendard']">
           <div className="flex items-center flex-col bg-[#6277BF] rounded-[15px] w-[280px] h-[566px] drop-shadow-[19px_19px_10px_rgba(0,0,0,0.25)] mt-[7%]">
+              <Head>
+                  <title>Noobnuby Profile Site</title>
+                  <link rel="icon" href="/favicon.png" sizes="any"/>
+              </Head>
               <Image
                   src="/profile.png"
                   width={96}
