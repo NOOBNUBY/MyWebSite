@@ -21,7 +21,7 @@ export default function Home() {
                   <link rel="icon" href="/favicon.png" sizes="any"/>
               </Head>
               <Image
-                  src="/profile.png"
+                  src="/favicon.png"
                   width={96}
                   height={1}
                   alt=""
